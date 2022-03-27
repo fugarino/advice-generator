@@ -1,7 +1,7 @@
 // Selectors
 const adviceNumberElement = document.querySelector(".advice-number");
 const adviceTextElement = document.querySelector(".advice-text");
-const btn = document.querySelector("button");
+const btn = document.querySelector(".advice-button");
 
 // Functions
 const handleClick = () => {
