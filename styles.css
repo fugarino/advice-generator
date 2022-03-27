@@ -33,6 +33,9 @@ header {
 main {
   height: 150px;
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   padding: 0 25px;
   font-size: 1.8rem;
@@ -53,4 +56,5 @@ button {
   bottom: -35px;
   left: 50%;
   transform: translateX(-50%);
+  cursor: pointer;
 }
