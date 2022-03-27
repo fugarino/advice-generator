@@ -10,6 +10,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #212a38;
+  font-family: sans-serif;
 }
 
 .card {
@@ -17,4 +18,39 @@ body {
   width: 375px;
   background: #364354;
   border-radius: 10px;
+  position: relative;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+  color: greenyellow;
+}
+
+main {
+  height: 150px;
+  color: #fff;
+  text-align: center;
+  padding: 0 25px;
+  font-size: 1.8rem;
+}
+
+.divider {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+button {
+  border-radius: 50%;
+  border: none;
+  background-color: greenyellow;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
 }
